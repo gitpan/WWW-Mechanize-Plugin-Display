@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: WWW-Mechanize-Plugin-Display
-version: 1.00
+version: 1.01
 author: []
 abstract: |-
   Display WWW::Mechanize results in a local web browser.
@@ -13,7 +13,7 @@ requires:
 provides:
   WWW::Mechanize::Plugin::Display:
     file: lib/WWW/Mechanize/Plugin/Display.pm
-    version: 1.00
+    version: 1.01
 generated_by: Module::Build version 0.2807
 meta-spec:
   url: |-

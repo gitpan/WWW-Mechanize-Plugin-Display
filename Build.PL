@@ -14,6 +14,7 @@ my $class = Module::Build->subclass(
 
 
 $class->new( 
+      create_makefile_pl => 'traditional',
       module_name     => 'WWW::Mechanize::Plugin::Display',
       license         => 'perl',
       requires        => {
